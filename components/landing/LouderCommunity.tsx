@@ -1,16 +1,8 @@
 "use client";
-
-import { motion, useReducedMotion } from "framer-motion";
-import {
-  ArrowDownRight,
-  ArrowUpRight,
-  Asterisk,
-  Heart,
-  Sparkles,
-  Users,
-  Zap,
-} from "lucide-react";
+import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { ArrowDownRight, ArrowUpRight, Asterisk, Heart, Sparkles, Users, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
 
 type Props = { onJoin: () => void };
 
@@ -24,12 +16,12 @@ const communityWords = [
 export function LouderCommunity({ onJoin }: Props) {
   const reduceMotion = useReducedMotion();
 
-  const reveal = {
+  const reveal: Variants = {
     hidden: { opacity: 0, y: reduceMotion ? 0 : 32 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] },
+      transition: { duration: 0.75, ease: "easeOut" },
     },
   };
 
@@ -151,7 +143,7 @@ export function LouderCommunity({ onJoin }: Props) {
             initial={{ opacity: 0, scale: 0.88, rotate: 4 }}
             whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.85, ease: "easeOut" }}
             className="relative mx-auto w-full max-w-[290px] lg:mt-10"
           >
             <div className="relative aspect-[.82] overflow-hidden rounded-[2rem] border border-white/15 bg-[#0B2265] p-6 shadow-[0_30px_100px_rgba(0,0,0,.3)]">
@@ -226,22 +218,6 @@ export function LouderCommunity({ onJoin }: Props) {
               <Heart size={23} />
             </div>
           </motion.div>
-        </div>
-      </div>
-
-      {/* Moving community signature */}
-      <div className="relative border-y border-white/10 py-5">
-        <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 sm:gap-x-9">
-          {communityWords.map((word, index) => (
-            <div key={word} className="flex items-center gap-5 sm:gap-9">
-              <span className={`text-[9px] font-black uppercase tracking-[.2em] sm:text-[10px] ${
-                index % 2 === 0 ? "text-white/55" : "text-[#00A3E0]"
-              }`}>
-                {word}
-              </span>
-              <Asterisk size={15} className="text-[#FFC72C]" />
-            </div>
-          ))}
         </div>
       </div>
     </section>

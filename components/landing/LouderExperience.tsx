@@ -1,18 +1,8 @@
-
 "use client";
-
 import { motion, useReducedMotion } from "framer-motion";
-import {
-  ArrowDownRight,
-  ArrowUpRight,
-  AudioLines,
-  Heart,
-  Music2,
-  Sparkles,
-  Users,
-  Zap,
-} from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, AudioLines, Music2, Users, Zap } from "lucide-react";
 import { experiences } from "./data";
+
 
 const icons = [Music2, Users, AudioLines];
 
@@ -166,7 +156,7 @@ export function LouderExperience() {
                     transition={{
                       duration: 0.9,
                       delay: 0.5,
-                      ease: [0.22, 1, 0.36, 1],
+                      ease: [0.22, 1, 0.36, 1] as const,
                     }}
                     className="absolute -bottom-2 left-1 h-1.5 w-[80%] origin-left rounded-full bg-[#FFC72C] sm:h-2"
                   />

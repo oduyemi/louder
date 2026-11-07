@@ -125,12 +125,13 @@ export const JoinCommunityDialog = ({
   };
 
   const handleClose = (nextOpen: boolean) => {
-    if (!nextOpen && !loading) {
+    if (!nextOpen && loading) return;
+    if (!nextOpen) {
       setForm(initialForm);
       setSubmitted(false);
       setErrorMessage("");
     }
-
+  
     onOpenChange(nextOpen);
   };
 
@@ -145,12 +146,6 @@ export const JoinCommunityDialog = ({
     <Dialog open={open} onOpenChange={handleClose}>
       <DialogContent
         className="max-h-[92dvh] w-[calc(100%-20px)] max-w-[620px] gap-0 overflow-y-auto rounded-[1.6rem] border border-white/10 bg-[#091B40] p-0 text-white shadow-[0_35px_120px_rgba(0,0,0,.65)] [&>button:last-child]:hidden"
-        onInteractOutside={(event) => {
-          if (loading) event.preventDefault();
-        }}
-        onEscapeKeyDown={(event) => {
-          if (loading) event.preventDefault();
-        }}
       >
         <AnimatePresence mode="wait" initial={false}>
           {submitted ? (

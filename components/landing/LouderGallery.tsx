@@ -1,17 +1,18 @@
 "use client";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, type Variants } from "framer-motion";
 import { ArrowUpRight, Asterisk, Camera, MoveUpRight } from "lucide-react";
 import { galleryItems } from "./data";
+
 
 export function LouderGallery() {
   const reduceMotion = useReducedMotion();
 
-  const reveal = {
+  const reveal: Variants = {
     hidden: { opacity: 0, y: reduceMotion ? 0 : 28 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+      transition: { duration: 0.7, ease: "easeOut" },
     },
   };
 
@@ -109,7 +110,7 @@ export function LouderGallery() {
                 transition={{
                   duration: 0.75,
                   delay: reduceMotion ? 0 : (index % 3) * 0.12,
-                  ease: [0.22, 1, 0.36, 1],
+                  ease: "easeOut",
                 }}
                 className={`group relative isolate min-h-[260px] overflow-hidden rounded-[1.5rem] bg-[#0B2265] sm:min-h-[300px] lg:min-h-0 ${
                   layouts[index % layouts.length]
