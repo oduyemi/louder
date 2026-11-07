@@ -1,10 +1,10 @@
 export const louderImages = {
   hero: "/images/hero.jpg",
-  worship: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1000&q=85",
-  friends: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85",
-  crowd: "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1200&q=85",
-  community: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=85",
-  street: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=85",
+  worship: "/images/dj.jpg",
+  friends: "/images/middle.jpg",
+  crowd: "/images/crowd.jpg",
+  community: "/images/community.jpg",
+  street: "/images/street.jpg",
 };
 
 export const louderNav = [

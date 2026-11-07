@@ -3,13 +3,11 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import {
-  ArrowDownRight,
   ArrowUpRight,
   Cross,
   Globe2,
   Heart,
   MoveUpRight,
-  Sparkles,
 } from "lucide-react";
 
 type Props = {
@@ -129,10 +127,6 @@ export function LouderManifesto({ onJoin }: Props) {
                 aria-hidden="true"
                 className="absolute -right-10 -top-10 h-44 w-44 rounded-full border border-white/[0.08]"
               />
-              <div className="absolute right-8 top-8 text-[#FFC72C]">
-                <Sparkles size={23} strokeWidth={1.5} />
-              </div>
-
               <div className="relative">
                 <span className="inline-flex items-center gap-2 rounded-full border border-[#00A3E0]/30 bg-[#00A3E0]/10 px-3 py-1.5 text-[9px] font-black uppercase tracking-[0.2em] text-[#41B6E6]">
                   <span className="h-1.5 w-1.5 rounded-full bg-[#41B6E6]" />
