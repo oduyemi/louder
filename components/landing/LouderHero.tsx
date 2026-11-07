@@ -1,5 +1,4 @@
 "use client";
-
 import { motion, useReducedMotion } from "framer-motion";
 import {
   ArrowDown,
@@ -39,7 +38,6 @@ export function LouderHero({ onJoin }: Props) {
       id="top"
       className="relative isolate overflow-hidden bg-[#071744] pb-16 pt-28 text-white sm:pb-20 sm:pt-32 lg:pb-24 lg:pt-36"
     >
-      {/* Background atmosphere */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute -left-48 top-0 h-[550px] w-[550px] rounded-full bg-[#00A3E0]/10 blur-[150px]" />
 
