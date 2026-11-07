@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, type FormEvent } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { message } from "antd";
@@ -190,9 +189,6 @@ export const JoinCommunityDialog = ({
                 </p>
 
                 <div className="mx-auto mt-8 flex max-w-sm items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-left">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#00A3E0]/10 text-[#00A3E0]">
-                    <Heart size={19} />
-                  </div>
                   <p className="text-xs leading-6 text-white/65">
                     One community. One mission. Jesus at the centre.
                   </p>
