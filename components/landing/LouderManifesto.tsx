@@ -21,7 +21,7 @@ export function LouderManifesto({ onJoin }: Props) {
 
         <motion.div initial={{ opacity: 0, y: 25 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, delay: .1 }} className="flex flex-col justify-center">
           <p className="text-xl font-black leading-[1.35] tracking-[-.035em] sm:text-3xl">
-            We're a generation with something to say, something to share and a whole lot of love to give.
+            We&apos;re a generation with something to say, something to share and a whole lot of love to give.
           </p>
           <p className="mt-6 text-sm leading-8 text-[#07132F]/65 sm:text-base">
             Louder on the Rooftop is a youth expression of worship, faith and fellowship. A place to encounter God, celebrate life, build genuine friendships and discover the beauty of belonging.
