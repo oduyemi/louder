@@ -25,7 +25,6 @@ export function Louder() {
       <LouderStreet />
       <LouderGallery />
       <LouderCommunity onJoin={() => setJoinOpen(true)} />
-      {/* <LouderFooter /> */}
       <JoinCommunityDialog open={joinOpen} onOpenChange={setJoinOpen} />
     </main>
   );
