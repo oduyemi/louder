@@ -9,7 +9,6 @@ import { LouderExperience } from "./LouderExperience";
 import { LouderStreet } from "./LouderStreet";
 import { LouderGallery } from "./LouderGallery";
 import { LouderCommunity } from "./LouderCommunity";
-import { LouderFooter } from "./LouderFooter";
 import { JoinCommunityDialog } from "@/dialogs/join-community-dialog";
 
 export function Louder() {
