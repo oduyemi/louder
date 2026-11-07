@@ -3,14 +3,11 @@ import { motion, useReducedMotion } from "framer-motion";
 import {
   ArrowDown,
   ArrowUpRight,
-  ArrowUp,
   MoveUpRight,
   Sparkles,
   Star,
   Zap,
-  Plus,
 } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
 import { louderImages } from "./data";
 

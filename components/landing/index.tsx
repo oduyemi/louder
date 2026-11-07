@@ -9,6 +9,7 @@ import { LouderStreet } from "./LouderStreet";
 import { LouderGallery } from "./LouderGallery";
 import { LouderCommunity } from "./LouderCommunity";
 import { JoinCommunityDialog } from "@/dialogs/join-community-dialog";
+import { LouderFooter } from "./LouderFooter";
 
 export function Louder() {
   const [joinOpen, setJoinOpen] = useState(false);
@@ -24,6 +25,7 @@ export function Louder() {
       <LouderGallery />
       <LouderCommunity onJoin={() => setJoinOpen(true)} />
       <JoinCommunityDialog open={joinOpen} onOpenChange={setJoinOpen} />
+      <LouderFooter />
     </main>
   );
 }
