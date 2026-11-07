@@ -2,6 +2,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { Asterisk, ArrowUpRight } from "lucide-react";
 
+
 const phrases = [
   { text: "WE'RE OUTSIDE", color: "text-white" },
   { text: "LET'S GO TOGETHER", color: "text-[#FFC72C]" },
@@ -9,6 +10,9 @@ const phrases = [
   { text: "ONE SOUND", color: "text-[#FFC72C]" },
   { text: "ONE GENERATION", color: "text-white" },
 ];
+
+
+
 
 export function LouderTicker() {
   const reduceMotion = useReducedMotion();

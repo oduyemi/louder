@@ -1,6 +1,4 @@
-
 "use client";
-
 import { motion, useReducedMotion } from "framer-motion";
 import {
   ArrowDownRight,
@@ -125,7 +123,6 @@ export function LouderStreet() {
                 Matthew 28:19
               </span>
             </div>
-            <Sparkles className="absolute -right-1 top-2 text-[#E87722]" size={24} />
           </motion.div>
         </div>
 

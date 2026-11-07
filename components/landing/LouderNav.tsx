@@ -1,18 +1,11 @@
-
 "use client";
-
 import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import {
-  ArrowUpRight,
-  Menu,
-  X,
-  MoveUpRight,
-} from "lucide-react";
-
+import { ArrowUpRight, Menu, X, MoveUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { louderNav } from "./data";
+
 
 type Props = {
   onJoin: () => void;
