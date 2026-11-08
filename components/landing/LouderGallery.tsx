@@ -54,11 +54,10 @@ export function LouderGallery() {
               variants={reveal}
               className="mt-8 text-[clamp(3.6rem,8.5vw,8rem)] font-black leading-[.79] tracking-[-.085em]"
             >
-              LIFE HAPPENS.
+              SNAPSHOTS.
               <br />
-              <span className="text-[#E87722]">WE CAPTURE</span>
-              <br />
-              THE <span className="text-[#0B2265]">MOMENTS.</span>
+              <span className="text-[#E87722]">ON THE</span>{" "}
+               <span className="text-[#0B2265]">GO.</span>
             </motion.h2>
           </div>
 
