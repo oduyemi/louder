@@ -102,11 +102,11 @@ export function LouderHero({ onJoin }: Props) {
               <span className="h-px w-9 bg-[#00A3E0]" />
 
               <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/65 sm:text-xs">
-                WELCOME TO THE LOUDER
+                WELCOME TO THE
               </p>
 
               <span className="-rotate-2 rounded-sm bg-[#E87722] px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.13em] text-white sm:text-xs">
-                MOVEMENT.
+                LOUDER MOVEMENT.
               </span>
 
               <Zap size={17} fill="#FFC72C" className="text-[#FFC72C]" />
