@@ -117,8 +117,8 @@ export function LouderHero({ onJoin }: Props) {
               className="mt-7 max-w-[470px] text-sm leading-[2] text-blue-100/65 sm:text-[15px]"
             >
               We&apos;re a community of people on a mission to 
-              spread the Gospel. GO ye into all the world and 
-              preach the Gospel. In the Louder Movement we would 
+              spread the Gospel. MARK 16 VS. 15 states &apos;GO ye into all the world and 
+              preach the Gospel&apos;. In the Louder Movement we would 
               come together to GO Together, using Afrogospel 
               Music & Creative Expressions as a vehicle.
 
@@ -137,7 +137,7 @@ export function LouderHero({ onJoin }: Props) {
                 onClick={onJoin}
                 className="group h-[58px] rounded-full bg-[#FFC72C] px-8 text-[10px] font-black uppercase tracking-[0.13em] text-[#071744] shadow-[0_12px_35px_rgba(255,199,44,.12)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#ffda69] hover:shadow-[0_18px_40px_rgba(255,199,44,.2)]"
               >
-                LET&apos;S GO TOGETHER
+                TAP TO JOIN
 
                 <ArrowUpRight
                   size={17}
