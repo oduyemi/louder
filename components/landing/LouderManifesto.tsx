@@ -161,7 +161,7 @@ export function LouderManifesto({ onJoin }: Props) {
 
             <div className="absolute -bottom-5 -left-3 hidden -rotate-6 items-center gap-2 rounded-xl bg-[#FFC72C] px-5 py-3 text-[#071744] shadow-lg sm:flex">
               <span className="text-xs font-black uppercase tracking-[0.12em]">
-                Faith in action
+                LOUDER EVERYWHERE
               </span>
               <MoveUpRight size={15} />
             </div>
