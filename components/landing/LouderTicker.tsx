@@ -4,11 +4,11 @@ import { Asterisk, ArrowUpRight } from "lucide-react";
 
 
 const phrases = [
-  { text: "WE'RE OUTSIDE", color: "text-white" },
+  { text: "THINK LOUDER ON THE STREET", color: "text-white" },
   { text: "LET'S GO TOGETHER", color: "text-[#FFC72C]" },
-  { text: "LOUDER ON THE STREET", color: "text-white" },
-  { text: "ONE SOUND", color: "text-[#FFC72C]" },
-  { text: "ONE GENERATION", color: "text-white" },
+  { text: "LOUDER ON THE CAMPUS", color: "text-white" },
+  { text: "LOUDER IN THE MARKET", color: "text-[#FFC72C]" },
+  { text: "LOUDER EVERYWHERE!", color: "text-white" },
 ];
 
 
