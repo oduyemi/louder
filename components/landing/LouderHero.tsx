@@ -118,7 +118,9 @@ export function LouderHero({ onJoin }: Props) {
             >
               We&apos;re a community of people on a mission to 
               spread the Gospel. GO ye into all the world and 
-              preach the Gospel.
+              preach the Gospel. In the Louder Movement we would 
+              come together to GO Together, using Afrogospel 
+              Music & Creative Expressions as a vehicle.
 
               <span className="text-white/90">
                 {" "}Come as you are. Worship freely. Find your people.
@@ -277,12 +279,12 @@ export function LouderHero({ onJoin }: Props) {
                 <Star size={12} fill="currentColor" />
 
                 <span className="text-[8px] font-black uppercase tracking-[0.19em]">
-                  YOU&apos;RE INVITED
+                  WELCOME TO THE
                 </span>
               </div>
 
               <p className="mt-1 text-lg font-black tracking-[-0.06em] sm:text-2xl">
-                YOU BELONG HERE.
+                LOUDER MOVEMENT.
               </p>
             </motion.div>
 
