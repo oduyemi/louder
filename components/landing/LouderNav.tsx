@@ -60,7 +60,7 @@ export function LouderNav({ onJoin }: Props) {
             onClick={onJoin}
             className="group h-11 rounded-full bg-[#FFC72C] px-5 text-[10px] font-black uppercase tracking-[0.1em] text-[#07132F] shadow-[0_5px_20px_rgba(255,199,44,0.12)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#ffda69] hover:shadow-[0_8px_28px_rgba(255,199,44,0.22)]"
           >
-            LET&apos;S GO TOGETHER
+            TAP TO JOIN MOVEMENT
             <ArrowUpRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Button>
         </div>
