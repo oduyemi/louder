@@ -122,10 +122,10 @@ export function LouderHero({ onJoin }: Props) {
               come together to GO Together, using Afrogospel 
               Music & Creative Expressions as a vehicle.
 
-              <span className="text-white/90">
+              {/* <span className="text-white/90">
                 {" "}Come as you are. Worship freely. Find your people.
                 Make memories.
-              </span>
+              </span> */}
             </motion.p>
 
             {/* Actions */}
