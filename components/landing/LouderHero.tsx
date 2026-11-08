@@ -71,11 +71,11 @@ export function LouderHero({ onJoin }: Props) {
 
             {/* Headline */}
             <motion.div {...reveal(0.2)}>
-              <h1 className="text-[clamp(4.2rem,10.5vw,9.5rem)] font-black leading-[0.79] tracking-[-0.09em]">
-                WE&apos;RE
+              <h1 className="text-[clamp(3.2rem,9.5vw,8.5rem)] font-black leading-[0.79] tracking-[-0.09em]">
+                LET&apos;S GO
 
                 <span className="relative mt-3 block text-[#FFC72C]">
-                  OUTSIDE<span className="text-[#00A3E0]">.</span>
+                  TOGETHER<span className="text-[#00A3E0]">.</span>
 
                   <svg
                     viewBox="0 0 400 24"
@@ -102,11 +102,11 @@ export function LouderHero({ onJoin }: Props) {
               <span className="h-px w-9 bg-[#00A3E0]" />
 
               <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/65 sm:text-xs">
-                LOUDER ON THE
+                WELCOME TO THE LOUDER
               </p>
 
               <span className="-rotate-2 rounded-sm bg-[#E87722] px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.13em] text-white sm:text-xs">
-                STREET.
+                MOVEMENT.
               </span>
 
               <Zap size={17} fill="#FFC72C" className="text-[#FFC72C]" />
@@ -116,9 +116,9 @@ export function LouderHero({ onJoin }: Props) {
               {...reveal(0.38)}
               className="mt-7 max-w-[470px] text-sm leading-[2] text-blue-100/65 sm:text-[15px]"
             >
-              We&apos;re a missional community focused on obeying the Great
-              Commission. A generation with a voice, a purpose and a whole
-              lot of love to give.
+              We&apos;re a community of people on a mission to 
+              spread the Gospel. GO ye into all the world and 
+              preach the Gospel.
 
               <span className="text-white/90">
                 {" "}Come as you are. Worship freely. Find your people.
