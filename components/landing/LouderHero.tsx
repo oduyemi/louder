@@ -116,11 +116,12 @@ export function LouderHero({ onJoin }: Props) {
               {...reveal(0.38)}
               className="mt-7 max-w-[470px] text-sm leading-[2] text-blue-100/65 sm:text-[15px]"
             >
-              We&apos;re a community of people on a mission to 
-              spread the Gospel. MARK 16 VS. 15 states &apos;GO ye into all the world and 
-              preach the Gospel&apos;. In the Louder Movement we would 
-              come together to GO Together, using Afrogospel 
-              Music & Creative Expressions as a vehicle.
+              We&apos;re a community on a mission to 
+              spread the Gospel. Mark 16:15 states &apos;GO 
+              ye into all the world and preach the Gospel&apos;. 
+              In the Louder Movement we come together to GO 
+              Together, using Afrogospel Music & Creative 
+              Expressions as a vehicle.
 
               {/* <span className="text-white/90">
                 {" "}Come as you are. Worship freely. Find your people.
