@@ -117,7 +117,7 @@ export function LouderHero({ onJoin }: Props) {
               className="mt-7 max-w-[470px] text-sm leading-[2] text-blue-100/65 sm:text-[15px]"
             >
               We&apos;re a community on a mission to 
-              spread the Gospel. Mark 16:15 states &apos;GO 
+              spread the Gospel. Mark 16:15 states, &apos;GO 
               ye into all the world and preach the Gospel&apos;. 
               In the Louder Movement we come together to GO 
               Together, using Afrogospel Music & Creative 
